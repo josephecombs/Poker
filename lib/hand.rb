@@ -2,7 +2,7 @@
 require_relative 'deck'
 
 class Hand
-  attr_accessor :cards_array
+  attr_accessor :cards_array, :deck
   
   HAND_VALUES = {
     :singleton => 0,
