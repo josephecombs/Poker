@@ -19,7 +19,7 @@ describe Card do
   
   describe '#value' do
     it 'acesses card value' do
-      expect(card.value).to eq(:ace)
+      expect(card.card_value).to eq(:ace)
     end
   end
 end
